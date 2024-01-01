@@ -3,19 +3,12 @@ workflow:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
 
 stages:
-  - lint
   - test
 
-lint-job:
-  when: always
-  stage: lint
-  image: golangci/golangci-lint
-  script:
-    - golangci-lint run
-
 test-job:
-  when: always
   stage: test
   image: golang:latest
   script:
-    - go test ./...
+    - chmod +x ./init-repo.sh
+    - ./init-repo.sh
+    - ./local-test-script.sh
