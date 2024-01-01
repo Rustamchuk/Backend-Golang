@@ -2,6 +2,8 @@
 
 ## Стэк: Go, gRPC, Rest API, Docker, SQLite, MySQL, 
 
+### Применены на практике конкурентные паттерны: Generator, WorkerPool, Pipeline, FanIn-FanOut
+
 ---
 
 # HW8 &ndash; GRPC, Databases
