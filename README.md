@@ -1,4 +1,6 @@
-# Назаров Рустам Backend Pet-project (Закончен)
+# Назаров Рустам Backend Pet-project Golang (Закончен)
+
+## Стэк: Go, gRPC, Rest API, Docker, SQLite, MySQL, 
 
 ---
 
